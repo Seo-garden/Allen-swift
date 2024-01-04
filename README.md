@@ -3,7 +3,7 @@
 
 ## PART7 함수  
 
-[PART7 함수](https://github.com/Seo-garden/Allen-swift/blob/main/part7/part7-29~34.md)
+[PART7 함수](https://github.com/Seo-garden/Allen-swift/blob/main/part7/part7-28~34.md)
 
 [PART7 함수-2](https://github.com/Seo-garden/Allen-swift/blob/main/part7/part7-35~.md)
 
