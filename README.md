@@ -8,4 +8,4 @@
 
 [PART9 컬렉션](https://github.com/Seo-garden/Allen-swift/blob/main/part9/46~52.md)
 
-[PART10 열거형](https://github.com/Seo-garden/Allen-swift/blob/main/part9/53~59.md)
+[PART10 열거형](https://github.com/Seo-garden/Allen-swift/blob/main/part10/53~59.md)
