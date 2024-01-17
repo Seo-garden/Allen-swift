@@ -38,3 +38,18 @@ class Dog {
 }
 
 var siba = Dog(name2: "시바견", weight2: 7.0)
+
+class Book {
+    var bookName : String
+    var bookPrice : Int
+    var publisher : String
+    var author : String
+    var page : Int
+    init(bookName: String, bookPrice: Int, publisher: String, author: String, page: Int) {
+        self.bookName = bookName
+        self.bookPrice = bookPrice
+        self.publisher = publisher
+        self.author = author
+        self.page = page
+    }
+}
