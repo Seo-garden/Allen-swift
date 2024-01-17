@@ -9,14 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    
     @IBOutlet weak var mainLabel: UILabel!
     @IBOutlet weak var numberLabel: UILabel!
     //컴퓨터가 랜덤으로 선택한 숫자(1~10)
     var comNumber = Int.random(in: 1...10)
     //내가 선택한 숫자
     var myNumber : Int = 1
-    
     
     //앱의 화면에 들어오면 가장 처음에 실행되는 함수
     override func viewDidLoad() {
