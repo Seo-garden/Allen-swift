@@ -19,7 +19,7 @@ struct Fruits {
     var price = 1000
 }
 
-var grapes = Fruits(name: "포도", price: 1500)
+var grapes = Fruits()
 
 
 var strawberrys = grapes
@@ -28,3 +28,13 @@ strawberrys.name = "딸기"
 print(grapes.name)      //포도
 print(strawberrys.name) //딸기
 
+class Dog {
+    var name1 : String
+    var weight1 : Double
+    init(name2: String, weight2: Double){
+        self.name1 = name2
+        self.weight1 = weight2
+    }
+}
+
+var siba = Dog(name2: "시바견", weight2: 7.0)
