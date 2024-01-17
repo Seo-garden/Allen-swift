@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0753d229ce2e8f28",
+        "id": "76e28326c65ef9cc",
         "type": "tabs",
         "children": [
           {
-            "id": "fda3e0c103ac6e8b",
+            "id": "6f26fc1d3b2eebdb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,8 +165,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fda3e0c103ac6e8b",
+  "active": "6f26fc1d3b2eebdb",
   "lastOpenFiles": [
+    "앱만들기 기초/section15.md",
     "part11/85~89.md",
     "Spaces/Home",
     "Spaces"
