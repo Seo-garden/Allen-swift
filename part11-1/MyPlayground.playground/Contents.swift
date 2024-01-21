@@ -145,3 +145,17 @@ struct Circle {
 
 let smallCircle = Circle(radius: 5.0)
 print(smallCircle.circumference)  // 출력: 31.4
+//99강
+class Profile {
+    var name : String = "홍길동"
+    var statusMessage : String = " " {
+        willSet{
+            print("한줄 소개가 \(statusMessage) 에서 \(newValue) 로 변경될 예정입니다.")
+        }
+        didSet{
+            print("한줄 소개가 \(oldValue) 에서 \(statusMessage) 로 변경되었습니다.")
+        }
+    }
+}
+var p10 = Profile()
+p10.statusMessage = "반갑습니다"
