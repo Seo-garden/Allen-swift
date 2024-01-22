@@ -159,3 +159,58 @@ class Profile {
 }
 var p10 = Profile()
 p10.statusMessage = "반갑습니다"
+//100강
+class Lion {
+    var name : String
+    var weight : Double
+    init(name: String, weight: Double) {
+        self.name = name
+        self.weight = weight
+    }
+    func changeName(newName name : String) {
+        self.name = name
+    }
+    //오버로딩
+    func changeName() {
+        print("asdas")
+    }
+}
+var lionKing = Lion(name: "라이언", weight: 100.0)
+
+lionKing.changeName(newName: "asd")
+print(lionKing.name)
+struct Matrix {
+    var data = [["0","1", "2"], ["3", "4", "5"]]
+    subscript(row: Int, col: Int) -> String {
+        if row > 3 || col > 3 {
+            return "값이 없습니다."
+        }
+        return data[row][col]
+    }
+}
+var tax = Matrix()
+tax[0, 1]
+
+
+struct MyArray {
+    private var elements: [Int]
+    
+    init(_ elements: [Int]) {
+        self.elements = elements
+    }
+    
+    subscript(index: Int) -> Int {
+        get {
+            return elements[index]
+        }
+        set(newValue) {
+            elements[index] = newValue
+        }
+    }
+}
+
+var myArray = MyArray([1, 2, 3])
+print(myArray[1]) // 출력: 2
+
+myArray[1] = 10
+print(myArray[1]) // 출력: 10

@@ -12,5 +12,5 @@
 
 [PART11 클래스](https://github.com/Seo-garden/Allen-swift/blob/main/part11/85~89.md)
 
-[PART11-1 속성(Property)](https://github.com/Seo-garden/Allen-swift/blob/main/part11-1/90~99.md)
+[PART11-1 속성(Property)](https://github.com/Seo-garden/Allen-swift/blob/main/part11-1/90~103.md)
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9b5dd3b07eecd14b",
+        "id": "802062b90b470733",
         "type": "tabs",
         "children": [
           {
-            "id": "e2c4e75f2c22ed41",
+            "id": "510007bc8ca09ea1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,20 +165,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e2c4e75f2c22ed41",
+  "active": "510007bc8ca09ea1",
   "lastOpenFiles": [
+    "part11-1/MyPlayground~.playground",
     "part11-1/90~103.md",
+    "part11/85~89.md",
+    "part10/53~59.md",
+    "part9/46~52.md",
+    "part8/43~45.md",
+    "part7/35~42-1.md",
+    "part7/28~34.md",
+    "README.md",
     "part11-1/MyPlayground~.playground/playground.xcworkspace/xcuserdata",
     "part11-1/MyPlayground~.playground/playground.xcworkspace",
     "part11-1/MyPlayground~.playground/contents.xcplayground",
     "part11-1/MyPlayground~.playground/Contents.swift",
-    "part11-1/MyPlayground~.playground",
     "part11-1/MyPlayground~.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "part11-1/MyPlayground~.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
     "part11-1/MyPlayground~.playground/playground.xcworkspace/contents.xcworkspacedata",
     "part11-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "part11-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part11/85~89.md",
     "앱만들기 기초/section15.md"
   ]
 }
