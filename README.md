@@ -14,3 +14,4 @@
 
 [PART11-1 속성(Property)](https://github.com/Seo-garden/Allen-swift/blob/main/part11-1/90~103.md)
 
+[PART12 클래스의 상속과 초기화](https://github.com/Seo-garden/Allen-swift/blob/main/part12/104~114.md)
