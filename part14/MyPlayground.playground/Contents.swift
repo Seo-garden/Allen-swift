@@ -82,8 +82,61 @@ extension Point {
     init(num : Double, num1: Double){
         self.init(x: num, y: num1)      //본체의 생성자를 반드시 호출해야 한다.
     }
-//    init(num : Double, num1 : Double){        //예외의 경우, 
+//    init(num : Double, num1 : Double){        //예외의 경우,
 //        self.x = num
 //        self.y = num1
 //    }
 }
+struct Dohun {
+    var name : String = "도훈"
+    var weight : Double = 12.0
+    var height : Double
+}
+//123강
+extension Int {
+    subscript(num: Int) -> Int {
+        var demicalNum = 1
+        for _ in 0..<num {
+            demicalNum * 10
+        }
+        return (self/demicalNum) % 10
+    }
+}
+//124강
+class Home {
+    enum Week {
+        case Monday
+        case Tuesday
+    }
+    var day : Week = .Monday
+}
+
+extension Int {
+    enum Kind {
+        case negative, zero, positive
+    }
+    var kind : Kind {
+        switch self {
+        case 0:
+            return Kind.zero
+        case let x where x > 0:
+            return Kind.positive
+        default:
+            return Kind.negative
+        }
+    }
+}
+func printIntegerKinds(_ numbers : [Int]) {
+    for number in numbers {
+        switch number.kind {
+        case .negative:
+            print("-", terminator: "")
+        case .zero:
+            print(0, terminator: "")
+        case .positive:
+            print("+", terminator: "")
+        }
+    }
+    print("")
+}
+printIntegerKinds([-6, 1, 0, 0, -123, 99])

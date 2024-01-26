@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3a1dcf7d3ff0ab80",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "part14/119~124.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part14/119~124.md",
+                "file": "part11-1/90~103.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part14/119~124.md",
+                "file": "part11-1/90~103.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part14/119~124.md"
+                "file": "part11-1/90~103.md"
               }
             }
           },
@@ -178,11 +165,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3a1dcf7d3ff0ab80",
+  "active": "a1d04a93fccb3120",
   "lastOpenFiles": [
+    "part15/125~135.md",
+    "README~.md",
+    "part15/141~154.md",
+    "part15/141~.md",
+    "part15/125~140 복사본.md",
+    "part15/125~140.md",
+    "part15/README.md",
+    "part15",
+    "무제 폴더",
+    "part14/119~124.md",
     "part11-1/90~103.md",
     "part13/115~118.md",
-    "part14/119~124.md",
     "part14/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "part14/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
     "part14/MyPlayground.playground/playground.xcworkspace/xcuserdata",
@@ -191,9 +187,7 @@
     "part14/MyPlayground.playground/timeline.xctimeline",
     "part14/MyPlayground.playground/contents.xcplayground",
     "part14/MyPlayground.playground/Contents.swift",
-    "part14/MyPlayground.playground",
     "part12/104~114.md",
-    "part13/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     ">  결론. 이미 모든 속성을 초기화하는 지정생성자가 있다면 모든 속성을 초기화ᄒ.md",
     ">  결론. 이미 모든 속성을 초기화하는 지정생성자가 있다면 모든 속성을 초기화하지 않는 경우 편의생성자로 구현을 권장.md",
     "무제 파일.canvas",
