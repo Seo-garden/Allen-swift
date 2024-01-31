@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "Spaces/Home",
+  "activeView": "/",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -35,7 +35,16 @@
   "showRibbon": true,
   "deleteFileOption": "trash",
   "expandedSpaces": [
-    "/"
+    "/",
+    "part10",
+    "part10",
+    "part10",
+    "part10",
+    "//part11-1",
+    "//part11-1",
+    "//part10",
+    "//part12",
+    "//part15"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",

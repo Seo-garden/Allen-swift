@@ -20,6 +20,4 @@
 
 [PART14 확장](https://github.com/Seo-garden/Allen-swift/blob/main/part14/119~124.md)
 
-[PART14 확장](https://github.com/Seo-garden/Allen-swift/blob/main/part14/119~124.md)
-
-[PART14 프로토콜](https://github.com/Seo-garden/Allen-swift/blob/main/part15/125~135.md)
+[PART15 프로토콜](https://github.com/Seo-garden/Allen-swift/blob/main/part15/125~135.md)
