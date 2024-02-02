@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "part14/119~124.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c2a8c8b2c9eb0aa9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "part15/125~135.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "87b3b72b65dcb19e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "part18/142~149-1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part15/125~135.md",
+                "file": "part18/142~149-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part15/125~135.md",
+                "file": "part18/142~149-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part15/125~135.md"
+                "file": "part18/142~149-1.md"
               }
             }
           },
@@ -166,29 +191,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4a716b3a231af648",
+  "active": "87b3b72b65dcb19e",
   "lastOpenFiles": [
-    "part15/MyPlayground~.playground/playground.xcworkspace",
-    "part15/MyPlayground~.playground/contents.xcplayground",
-    "part15/MyPlayground~.playground/Contents.swift",
-    "part15/MyPlayground~.playground",
-    "part11-1/90~103.md",
+    "part16~17-1/136~141.md",
+    "part18/142~149-1~.md",
+    "part18/142~149-1.md",
+    "part18/README.md",
+    "part18",
+    "무제 폴더 2",
+    "무제 폴더",
+    "part15/125~135.md",
+    "part14/119~124.md",
     "part12/104~114.md",
+    "part11-1/90~103.md",
+    "part16~17-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part16~17-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
+    "part16~17-1/MyPlayground.playground/playground.xcworkspace/xcuserdata",
+    "part16~17-1/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "part16~17-1/MyPlayground.playground/playground.xcworkspace",
+    "part16~17-1/MyPlayground.playground/timeline.xctimeline",
+    "part16~17-1/MyPlayground.playground/contents.xcplayground",
     "part10/53~59.md",
     "part7/35~42-1.md",
     "part7/28~34.md",
-    "part14/119~124.md",
-    "part15/125~135.md",
     "README.md",
     "part11/85~89.md",
     "part13/115~118.md",
-    "part15/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
-    "part15/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part15/MyPlayground.playground/playground.xcworkspace/xcuserdata",
-    "part15/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "part15/MyPlayground.playground/playground.xcworkspace",
-    "part15/MyPlayground.playground/timeline.xctimeline",
-    "part15/MyPlayground.playground/contents.xcplayground",
     "README~.md",
     "part15/141~154.md",
     "part15/141~.md",

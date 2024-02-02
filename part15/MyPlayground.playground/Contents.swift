@@ -257,3 +257,20 @@ var ipad2 : Remote3 = Ipad1()
 ipad2.turnOn()      //아이패드 켜기
 ipad2.turnOff()     //
 ipad2.doAnotherAction()     //리모컨 또 다른 동작
+//134강
+protocol Bluetooth {
+    func blueOn()
+    func blueOff()
+}
+extension Bluetooth where Self : Remote2 {
+    func blueOn(){
+        print("블루투스 켜기")
+    }
+    func blueOff(){
+        print("블루투스 끄기")
+    }
+}
+class SmartPhone1 : Remote2, Bluetooth {
+    
+}
+

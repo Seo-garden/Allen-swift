@@ -21,3 +21,7 @@
 [PART14 확장](https://github.com/Seo-garden/Allen-swift/blob/main/part14/119~124.md)
 
 [PART15 프로토콜](https://github.com/Seo-garden/Allen-swift/blob/main/part15/125~135.md)
+
+[PART16~17-1 메서드 디스패치, 중첩 타입, Self 키워드](https://github.com/Seo-garden/Allen-swift/blob/main/part16~17-1/136~141.md)
+
+[PART18 클로저](https://github.com/Seo-garden/Allen-swift/blob/main/part18/142~149-1.md)
