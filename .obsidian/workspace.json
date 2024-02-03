@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part14/119~124.md",
+                "file": "part16~17-1/136~141.md",
                 "mode": "source",
                 "source": false
               }
@@ -193,24 +193,24 @@
   },
   "active": "87b3b72b65dcb19e",
   "lastOpenFiles": [
-    "part16~17-1/136~141.md",
-    "part18/142~149-1~.md",
-    "part18/142~149-1.md",
-    "part18/README.md",
-    "part18",
-    "무제 폴더 2",
-    "무제 폴더",
     "part15/125~135.md",
+    "part18/142~149-1.md",
+    "part16~17-1/136~141.md",
     "part14/119~124.md",
+    "part18/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part18/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
+    "part18/MyPlayground.playground/playground.xcworkspace/xcuserdata",
+    "part18/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "part18/MyPlayground.playground/playground.xcworkspace",
+    "part18/MyPlayground.playground/timeline.xctimeline",
+    "part18/MyPlayground.playground/contents.xcplayground",
+    "part18/MyPlayground.playground/Contents.swift",
+    "part18/MyPlayground.playground",
+    "part15/MyPlayground~.playground",
+    "part18/142~149-1~.md",
+    "part18/README.md",
     "part12/104~114.md",
     "part11-1/90~103.md",
-    "part16~17-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
-    "part16~17-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part16~17-1/MyPlayground.playground/playground.xcworkspace/xcuserdata",
-    "part16~17-1/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "part16~17-1/MyPlayground.playground/playground.xcworkspace",
-    "part16~17-1/MyPlayground.playground/timeline.xctimeline",
-    "part16~17-1/MyPlayground.playground/contents.xcplayground",
     "part10/53~59.md",
     "part7/35~42-1.md",
     "part7/28~34.md",
@@ -228,7 +228,6 @@
     "무제 파일.canvas",
     "2024-01-22.md",
     "part9/46~52.md",
-    "part8/43~45.md",
-    "앱만들기 기초/section15.md"
+    "part8/43~45.md"
   ]
 }

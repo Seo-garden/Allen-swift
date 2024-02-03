@@ -132,6 +132,7 @@ tv.turnOff()
 let sBox : Remote = SeTopBox()
 sBox.turnOff()
 sBox.turnOn()
+
 (sBox as? SeTopBox)?.doNetflix()
 
 let electronic : [Remote] = [tv, sBox]
@@ -140,7 +141,7 @@ for item in electronic {
     item.turnOn()
 }
 
-tv is Remote // --> 특정타입이 프로토콜을 채택하고 있는지 확인
+//tv is Remote // --> 특정타입이 프로토콜을 채택하고 있는지 확인
 let newBox = sBox as Remote //(업캐스팅)
 newBox.turnOn()
 
@@ -172,13 +173,16 @@ class HomePot : SuperRemote {
 protocol Named {
 var name : String {get}
 }
+
 protocol Aged {
 var age : Int {get}
 }
+
 struct Person1 : Named, Aged{
 var name : String
 var age : Int
 }
+
 func wishHappyBirthday(_ celebrator : Named & Aged) {
 print("생일축하해, \(celebrator.name), 넌 이제 \(celebrator.age)살이 되었구나!")
 }
@@ -190,26 +194,26 @@ let whoIsThis : Named & Aged = birthdayPerson
     @objc optional var isOn : Bool {get set}    // 멤버 앞에는 @objc optional
     var name : String {get}
 }
+//struct Mystruct : Myprotocol {}
 //133강
 protocol Remote2 {
     func turnOn()
     func turnOff()
-    //func throw1()
 }
-class TV4 : Remote2 {
-    func turnOn() {
-        print("킨다.")
-    }
+struct TV4 : Remote2 {
+//    func turnOn() {
+//        print("티비 4를 킨다.")
+//    }
 }
-class TV5 : Remote2 {
-    func turnOn() {
-        print("티비5를 켠다.")
-    }
-    func throw1(){
-        print("티비5를 던진다.")
-    }
+struct TV5 : Remote2 {
+//    func turnOn() {
+//        print("티비5를 켠다.")
+//    }
+//    func throw1(){
+//        print("티비5를 던진다.")
+//    }
 }
-extension Remote2 {
+extension Remote2 {     //확장된 프로토콜을 정의할 경우, 프로토콜을 채택받은 클래스나 구조체, 프로토콜원본(?) 은 메서드를 정의하지 않아도 된다.
     func turnOn(){
         print("티비를 켠다")
     }
@@ -220,57 +224,104 @@ extension Remote2 {
         print("티비를 던진다")
     }
 }
-print("---")
+var tv4 = TV4()
+tv4.turnOn()    //티비를 끈다.
+tv4.turnOff()   //티비4를 킨다.
 var tv5 : Remote2 = TV5()
-tv5.turnOn()    //
-tv5.turnOff()
+tv5.turnOn()    // 티비5를 켠다
+tv5.turnOff()   // 티비를 끈다.
 //직접적으로 메서드에 주소를 삽입한다.
 tv5.throw1()    // TV5() 타입을 받게되면 TV5 에 있는 메서드가 실행되지만, tv5 : Remote2 = TV5() 타입을 받게 되면 프로토콜의 확장된(extension) 메서드가 출력된다
+print("---------------------------")
 protocol Remote3 {
     func turnOn()
     func turnOff()
-    
 }
 extension Remote3 {
     func turnOn(){
         print("리모컨 켜기")
+    }
+    func turnOff(){
+        print("리모컨 끄기")
     }
     func doAnotherAction(){
         print("리모컨 또 다른 동작")
     }
 }
 class Ipad1 : Remote3 {
-    
     func turnOn() {
         print("아이패드 켜기")
     }
-    func turnOff() {}
     func doAnotherAction(){
         print("아이패드 또 다른 동작")
     }
 }
-var ipad1 = Ipad1()
+/**================================================= 버츄얼테이블을 생성한다
+ [Class Virtual 테이블]
+ - func turnOn()          { print("아이패드 켜기") }
+ - func turnOff()         { print("리모콘 끄기") }
+ - func doAnotherAction() { print("아이패드 또 다른 동작") }
+====================================================**/
+let ipad1 = Ipad1()
 ipad1.turnOn()      //아이패드 켜기
 ipad1.turnOff()     //
 ipad1.doAnotherAction()     //아이패드 또 다른 동작
-var ipad2 : Remote3 = Ipad1()
+/**=====================================
+ [Protocol Witness 테이블] - 요구사항
+ - func turnOn()  { print("아이패드 켜기") }
+ - func turnOff() { print("리모콘 끄기") }
+========================================**/
+let ipad2 : Remote3 = Ipad1()
 ipad2.turnOn()      //아이패드 켜기
-ipad2.turnOff()     //
-ipad2.doAnotherAction()     //리모컨 또 다른 동작
+ipad2.turnOff()     //리모컨 끄기
+ipad2.doAnotherAction()     //리모컨 또 다른 동작 (직접 메서드 주소 삽입)
+
+struct SmartPhone2: Remote3 {
+    func turnOn() { print("스마트폰 켜기") }
+    func doAnotherAction() { print("스마트폰 다른 동작") }
+}
+/**=====================================
+ [구조체] - 메서드 테이블이 없음
+========================================**/
+
+// 본래의 타입으로 인식했을때
+var iphone: SmartPhone2 = SmartPhone2()
+iphone.turnOn()             // 구조체 - Direct (직접 메서드 주소 삽입) 스마트폰 켜기
+iphone.turnOff()            // 구조체 - Direct (직접 메서드 주소 삽입) 리모콘 끄기
+iphone.doAnotherAction()    // 구조체 - Direct (직접 메서드 주소 삽입) 스마트폰 다른 동작
+
+/**=====================================
+ [Protocol Witness 테이블] - 요구사항
+ - func turnOn()  { print("스마트폰 켜기") }
+ - func turnOff() { print("리모콘 끄기") }
+========================================**/
+var iphone2: Remote3 = SmartPhone2()
+iphone2.turnOn()            // 프로토콜 - W테이블      스마트폰 켜기
+iphone2.turnOff()           // 프로토콜 - W테이블      리모콘 끄기
+iphone2.doAnotherAction()   // 프로토콜 - Direct (직접 메서드 주소 삽입) 리모컨 또 다른 동작
 //134강
 protocol Bluetooth {
     func blueOn()
     func blueOff()
 }
 extension Bluetooth where Self : Remote2 {
-    func blueOn(){
+    func blueOn2(){
         print("블루투스 켜기")
     }
-    func blueOff(){
+    func blueOff2(){
         print("블루투스 끄기")
     }
+    func blue2(){
+        print("블루투스2 끄기")
+    }
 }
-class SmartPhone1 : Remote2, Bluetooth {
-    
+class SmartPhone1 : Remote2 {
+    func blueOn2(){
+        print("asd")
+    }
+    func masd(){
+        print("asdasd")
+    }
 }
-
+var iphone4 = SmartPhone1()
+iphone4
