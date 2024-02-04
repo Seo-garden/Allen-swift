@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a3ac81d0316da912",
+        "id": "88decbe9806bff4b",
         "type": "tabs",
         "children": [
           {
-            "id": "6b24651be2424c3c",
+            "id": "da6d28e981b5b687",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -165,10 +165,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6b24651be2424c3c",
+  "active": "da6d28e981b5b687",
   "lastOpenFiles": [
-    "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
+    "README.md",
     "복습내용/클로저까지의 복습.md",
+    "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
     "part16~17-1/136~141.md",
     "Users/seojeong-won/Desktop/Study/iOS",
     "Users/seojeong-won/Desktop/Study",
@@ -176,7 +177,6 @@
     "Users/seojeong-won",
     "Users",
     "part15/125~135.md",
-    "README.md",
     "part18/142~149-1.md",
     "복습내용/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "복습내용/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
