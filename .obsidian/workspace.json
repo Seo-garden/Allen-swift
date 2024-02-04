@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "82284958e59a11b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -168,6 +180,7 @@
   "active": "da6d28e981b5b687",
   "lastOpenFiles": [
     "README.md",
+    "part18/142~149-1.md",
     "복습내용/클로저까지의 복습.md",
     "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
     "part16~17-1/136~141.md",
@@ -177,7 +190,6 @@
     "Users/seojeong-won",
     "Users",
     "part15/125~135.md",
-    "part18/142~149-1.md",
     "복습내용/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "복습내용/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
     "복습내용/MyPlayground.playground/playground.xcworkspace/xcuserdata",
