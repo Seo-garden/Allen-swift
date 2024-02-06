@@ -14,6 +14,7 @@ class Undergrate : Student1{
 }
 let human : Human = Undergrate() //메모리에 저장되어 있는 저장 속성은 4개의 저장속성(class Undergrate)이다. 저장할 땐 3개만 보이도록 하는 것.
 human.name
+
 //116강
 if let ppp = human as? Undergrate {
     
@@ -48,6 +49,7 @@ class UnderGrate : Student {
         print("대학생이 축제한다.")
     }
 }
+//let student1 = Student() as Person    Student() 인스턴스를 생성하지만, Person 타입으로 저장한다.
 
 let person1 = Person()
 person1.walk()

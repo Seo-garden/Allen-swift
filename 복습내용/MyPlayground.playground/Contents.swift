@@ -131,4 +131,41 @@ bbird.name = "비둘기 2호"
 abird.name      //구조체의 경우 값을 복사하기 때문에 비둘기, 비둘기 2호가 출력되지만
 bbird.name      //클래스로 바꾸고 실행할 경우 메모리주소를 복사하기 때문에 둘디 비둘기 2호가 출력된다.
 // MARK: - Part11-1. 속성
+class MyClass {
+    static var staticProperty: Int = 0
+    static func staticMethod() {
+        print("이것은 스태틱 메서드이다.")
+    }
+}
+// 정적 프로퍼티 및 메서드는 클래스 자체에 속하므로 인스턴스를 생성하지 않고 바로 접근 가능합니다.
+print(MyClass.staticProperty) // 0
+MyClass.staticMethod() // 클래스 자체의 타입
+// MARK: - Part11.1 서브스크립트
+class SomeData {
+    var datas = ["A", "B", "C"]
+    subscript(index: Int) -> String {
+        get {
+            return datas[index]
+        }
+    }
+}
+// MARK: - Part11.1 싱글톤패턴
+class DataManager {
+    static let shared = DataManager()       //유일하게 한개만
+    private init(){}                        //외부에서 또 다른 객체의 생성을 막고 싶을 때 선언
+}
+// MARK: - Part12 클래스의 상속과 초기화
+class Cat {
+    var name : String
+    var weight : Double
+    init(name: String, weight: Double) {
+        self.name = name
+        self.weight = weight
+    }
+}
 
+struct CAT {
+    var name : String = "야옹1"       //지정생성자로 초기화하지 않고 값을 할당할 경우
+    var weight : Double = 1.0        //
+}
+var cat = CAT(weight: 2.2)          //구조체에선 멤버와이즈 이니셜라이저를 사용할 수 있다. (단, 지정생성자로 초기화 할 경우 사용X)

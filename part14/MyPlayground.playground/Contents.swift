@@ -45,7 +45,7 @@ class Undergraduate : Student {
         print("대학생이 파티한다.")
     }
 //    func play(){      //swift 에서의 확장에서 구현된 메서드는 재정의가 불가하다. 하지만 상위 extension 에 @objc 를 붙이면 재정의가 가능하다.
-//        print("학생이 게임을 한다.")
+//        print("학생이 게임을 한다.")      //메서드에 override 키워드도 넣어야 한다.
 //    }
 }
 var under = Undergraduate()
@@ -75,7 +75,7 @@ Int.printNumberRandom()
 struct Point {
     var x = 0.0
     var y = 0.0
-    //init(x : Double, y : Double){}
+    //init(x : Double, y : Double){}    //자동으로 생성된 생성자
     //init(){}
 }
 extension Point {

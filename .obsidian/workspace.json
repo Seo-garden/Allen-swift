@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "복습내용/클로저까지의 복습.md",
+                "file": "part14/119~124.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "복습내용/클로저까지의 복습.md",
+                "file": "part14/119~124.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "복습내용/클로저까지의 복습.md",
+                "file": "part14/119~124.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "복습내용/클로저까지의 복습.md"
+                "file": "part14/119~124.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   },
   "active": "da6d28e981b5b687",
   "lastOpenFiles": [
+    "part13/115~118.md",
+    "part12/104~114.md",
     "README.md",
-    "복습내용/클로저까지의 복습.md",
+    "복습내용/Part11. 속성까지의 복습.md",
     "part18/142~149-1.md",
     "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
     "part16~17-1/136~141.md",
@@ -187,13 +189,11 @@
     "part14/119~124.md",
     "part18/142~149-1~.md",
     "part18/README.md",
-    "part12/104~114.md",
     "part11-1/90~103.md",
     "part10/53~59.md",
     "part7/35~42-1.md",
     "part7/28~34.md",
     "part11/85~89.md",
-    "part13/115~118.md",
     "README~.md",
     "part15/141~154.md",
     "part15/141~.md",
