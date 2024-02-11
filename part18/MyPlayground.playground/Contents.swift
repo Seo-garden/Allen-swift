@@ -1,5 +1,5 @@
 import UIKit
-
+import Foundation
 func afunction(str: String) -> String {
     return "hello \(str)"
 }
@@ -15,7 +15,7 @@ func aFunction1(param : String) -> String {
 var a1 : (String) -> String = aFunction1
 a1("hello")
 a1 = afunction
-//143강
+//MARK: - 143강
 let add = { (a1: Int, b1: Int) -> Int in
     let result1 = a1 + b1
     return result1
@@ -132,4 +132,47 @@ multipleClosure2 {
 } third: {
     print("3")
 }
+//MARK: - 148강
+var stored = 0
+let closure = { (number: Int) -> Int in
+    stored += number
+    return stored
+}
+closure(3)
+closure(5)
+// 아래의 경우 중첩 함수로 되어있고
+// 내부 함수 외부에 계속 사용해야 하는 값이 있기 때문에 캡처 현상이 발생
+// 함수, 클로저를 변수에 저장하는 시점을 캡처 --> 클래스도 레퍼런스 타입
+func calculateFunc() -> ((Int) -> Int) {
+    var sum = 0
+    func square(num: Int) -> Int {
+        sum += (num*num)
+        return sum
+    }
+    return square
+}
+// 함수를 변수에 할당하거나, 클로저를 사용하는 경우 힙에 해당 메모리주소를 저장 및 (외부의)필요한 변수를 캡처
+var squareFunc = calculateFunc()        // 이 클로저는 힙에 저장이 되는데, squareFunc(10) 이 함수가 종료되면 스택프레임에서 사라지지만,
+//변수를 할당하고 있었기 때문에 값이 사라지지 않는다.
+squareFunc(10)      //100
+squareFunc(20)      //500
+squareFunc(30)      //1400
+//래퍼런스 타입
+var dodoFunc = calculateFunc()
+dodoFunc(20)        //1800
+//MARK: - 149강
+var aSavedFunction: () -> () = {print("출력")}
 
+func performEscaping2(closure: @escaping () -> ()){
+    aSavedFunction = closure                //클로저를 실행하는 것이 아닌 aSaveFunction 변수에 저장
+}
+
+performEscaping2 {print("다르게 출력")}      //클로저를 실행하는 것이 아닌 print함수를 aSaveFunction 에 할당
+aSavedFunction() // 다르게 출력이 출력된다.
+
+func performEscaping1(closure: @escaping (String) -> ()) {
+    var name = "홍길동"    
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {   //1초뒤에 실행하도록 만들기
+        closure(name)
+    }
+}

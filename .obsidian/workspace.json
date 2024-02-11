@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part14/119~124.md",
+                "file": "part18/142~149-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part14/119~124.md",
+                "file": "part18/142~149-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part14/119~124.md",
+                "file": "part18/142~149-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part14/119~124.md"
+                "file": "part18/142~149-1.md"
               }
             }
           },
@@ -168,6 +168,7 @@
   },
   "active": "da6d28e981b5b687",
   "lastOpenFiles": [
+    "part14/119~124.md",
     "part13/115~118.md",
     "part12/104~114.md",
     "README.md",
@@ -186,7 +187,6 @@
     "복습내용/MyPlayground.playground/playground.xcworkspace/xcuserdata",
     "복습내용/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
     "복습내용/MyPlayground.playground/playground.xcworkspace",
-    "part14/119~124.md",
     "part18/142~149-1~.md",
     "part18/README.md",
     "part11-1/90~103.md",
