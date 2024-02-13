@@ -170,9 +170,22 @@ func performEscaping2(closure: @escaping () -> ()){
 performEscaping2 {print("다르게 출력")}      //클로저를 실행하는 것이 아닌 print함수를 aSaveFunction 에 할당
 aSavedFunction() // 다르게 출력이 출력된다.
 
-func performEscaping1(closure: @escaping (String) -> ()) {
-    var name = "홍길동"    
+func performEscaping1(closure: @escaping (String) -> ()) {      //비동기 코드이기 때문에 @escaping 필요
+    var name = "홍길동"
     DispatchQueue.main.asyncAfter(deadline: .now() + 1) {   //1초뒤에 실행하도록 만들기
         closure(name)
     }
 }
+
+performEscaping1 { str in
+    print("이름 출력하기 \(str)")
+}
+//클로저 앞에 @autoclosure 키워드 사용(파라미터가 없는 클로저만 가능)
+func someFunction(closure: @autoclosure @escaping () -> Bool) {       //input 이 없을 때만
+    if closure(){
+        print("참입니다.")
+    } else {
+        print("거짓입니다.")
+    }
+}
+someFunction(closure: )

@@ -25,3 +25,5 @@
 [PART16~17-1 메서드 디스패치, 중첩 타입, Self 키워드](https://github.com/Seo-garden/Allen-swift/blob/main/part16~17-1/136~141.md)
 
 [PART18 클로저](https://github.com/Seo-garden/Allen-swift/blob/main/part18/142~149-1.md)
+
+[PART18-1, 2 고차함수, 함수형 프로그래밍](https://github.com/Seo-garden/Allen-swift/blob/main/part18-1~2/150~154.md)
