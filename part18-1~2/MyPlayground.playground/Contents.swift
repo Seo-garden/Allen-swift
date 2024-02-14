@@ -5,7 +5,7 @@ let numbers = [1,2,3,4,5]
 
 //numbers.map(<#T##transform: (Int) throws -> T##(Int) throws -> T#>)
 var aaa = numbers.map { num in      //숫자를 하나씩 빼서
-    return "숫자 : \(num)"
+    return num
 }
 print(aaa)
 
@@ -67,6 +67,61 @@ numbersArray.filter { num in
     return first + item
 }
 //위와 아래와 동일하다.
-numbersArray.filter {$0 % 2 != 0}.map {$0 * $0
-}.reduce(0) {$0 + $1}
+numbersArray.filter {$0 % 2 != 0}.map {$0 * $0}.reduce(0) {$0 + $1}
 //MARK: - 152강
+let immutableArray = [1,2,3,4,5]
+immutableArray.forEach { num in     //map 과 다르게 배열로 반환하지 않는다.
+    print(num)
+}
+let stringArray: [String?] = ["A", nil, "C", "B", nil]
+
+var newString = stringArray.compactMap {$0}     //nil 을 제외하고 가지고 있는 배열을 그대로 반환
+print(newString)
+
+var nestedArray = [[1,2,3], [4,5,6], [7,8,9]]
+print(nestedArray.flatMap{$0})      //배열들을 하나의 배열로 만들어 준다.
+//MARK: - 153강
+//명령형 프로그래밍
+let number = [1,2,3]
+var sum = 0
+for number in numbers {
+    sum += number
+}
+print(sum)
+//함수형 프로그래밍
+var newSum = 0
+newSum = number.reduce(0){$0+$1}
+//MARK: - 154강
+class Dog {
+    var name : String?
+    var weight : Int
+    init(name: String? = nil, weight: Int) {
+        self.name = name
+        self.weight = weight
+    }
+    func sit(){
+        print("\(self.name) 이 앉았습니다.")
+    }
+    func layDown(){
+        print("누웠습니다.")
+    }
+}
+class Human {
+    var dog : Dog?
+}
+//옵셔널 타입에 대해 "접근사용자"를 사용할 때, 물음표를 넣어서 앞의 타입이 값이 nil
+var choco : Dog? = Dog(name: "초코", weight: 15)
+choco?.name
+choco?.weight
+choco?.sit()     //Optional 초코가 앉음
+
+var human = Human()
+human.dog = choco
+human.dog?.name     //마지막에 있는 옵셔널타입은 ? 를 붙이지 않는다.
+
+var bori : Dog? = Dog(name: "보리", weight: 10)
+bori?.sit()     //앞 타입이 옵셔널이라고 해서 메서드가 실행이 안되는 것이 아니다
+bori?.layDown()
+bori = nil      //bori 가 nil 로 될 경우 결과 값이 nil 로 된다.
+
+

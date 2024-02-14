@@ -11,8 +11,12 @@
             "id": "3fee360362ba798c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "part18-1~2/150~154.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -91,6 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "part18-1~2/150~154.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,6 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "part18-1~2/150~154.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "part18-1~2/150~154.md"
+              }
             }
           },
           {
@@ -160,18 +168,19 @@
   },
   "active": "3fee360362ba798c",
   "lastOpenFiles": [
+    "part18-1~2/MyPlayground~.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part18-1~2/MyPlayground~.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
+    "part18-1~2/MyPlayground~.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "part18-1~2/MyPlayground~.playground/playground.xcworkspace/xcuserdata",
+    "part18-1~2/MyPlayground~.playground/playground.xcworkspace",
+    "part18-1~2/MyPlayground~.playground/contents.xcplayground",
+    "part18-1~2/MyPlayground~.playground/Contents.swift",
+    "part18-1~2/MyPlayground~.playground",
     "part18-1~2/150~154.md",
     "part18-1~2/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "part18-1~2/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
     "part18-1~2/MyPlayground.playground/playground.xcworkspace/xcuserdata",
-    "part18-1~2/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "part18-1~2/MyPlayground.playground/playground.xcworkspace",
-    "part18-1~2/MyPlayground.playground/timeline.xctimeline",
-    "part18-1~2/MyPlayground.playground/contents.xcplayground",
-    "part18-1~2/MyPlayground.playground/Contents.swift",
-    "part18-1~2/MyPlayground.playground",
     "part18/142~149-1.md",
-    "part18-1~2",
     "part14/119~124.md",
     "part13/115~118.md",
     "part12/104~114.md",
