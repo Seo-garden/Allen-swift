@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part18-1~2/150~154.md",
+                "file": "part19/155~162.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part18-1~2/150~154.md",
+                "file": "part19/155~162.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part18-1~2/150~154.md",
+                "file": "part19/155~162.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part18-1~2/150~154.md"
+                "file": "part19/155~162.md"
               }
             }
           },
@@ -168,42 +168,42 @@
   },
   "active": "3fee360362ba798c",
   "lastOpenFiles": [
+    "part19/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part19/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
+    "part19/MyPlayground.playground/playground.xcworkspace/xcuserdata",
+    "part19/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "part19/MyPlayground.playground/playground.xcworkspace",
+    "part19/MyPlayground.playground/timeline.xctimeline",
+    "part19/MyPlayground.playground/contents.xcplayground",
+    "part19/MyPlayground.playground/Contents.swift",
+    "part19/MyPlayground.playground",
+    "part11/85~89.md",
+    "part11-1/90~103.md",
+    "part19/155~162.md",
+    "README.md",
+    "part18-1~2/150~154.md",
+    "part19/.md",
     "part18-1~2/MyPlayground~.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
     "part18-1~2/MyPlayground~.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part18-1~2/MyPlayground~.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "part18-1~2/MyPlayground~.playground/playground.xcworkspace/xcuserdata",
-    "part18-1~2/MyPlayground~.playground/playground.xcworkspace",
-    "part18-1~2/MyPlayground~.playground/contents.xcplayground",
-    "part18-1~2/MyPlayground~.playground/Contents.swift",
-    "part18-1~2/MyPlayground~.playground",
-    "part18-1~2/150~154.md",
-    "part18-1~2/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
-    "part18-1~2/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part18-1~2/MyPlayground.playground/playground.xcworkspace/xcuserdata",
     "part18/142~149-1.md",
     "part14/119~124.md",
     "part13/115~118.md",
     "part12/104~114.md",
-    "README.md",
     "복습내용/Part11. 속성까지의 복습.md",
     "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
     "part16~17-1/136~141.md",
     "part15/125~135.md",
     "part18/142~149-1~.md",
     "part18/README.md",
-    "part11-1/90~103.md",
     "part10/53~59.md",
     "part7/35~42-1.md",
     "part7/28~34.md",
-    "part11/85~89.md",
     "README~.md",
     "part15/141~154.md",
     "part15/141~.md",
     "part15/125~140 복사본.md",
     "part15/125~140.md",
     "part15/README.md",
-    ">  결론. 이미 모든 속성을 초기화하는 지정생성자가 있다면 모든 속성을 초기화ᄒ.md",
-    ">  결론. 이미 모든 속성을 초기화하는 지정생성자가 있다면 모든 속성을 초기화하지 않는 경우 편의생성자로 구현을 권장.md",
     "무제 파일.canvas"
   ]
 }
