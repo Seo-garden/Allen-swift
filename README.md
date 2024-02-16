@@ -29,3 +29,7 @@
 [PART18-1, 2 고차함수, 함수형 프로그래밍](https://github.com/Seo-garden/Allen-swift/blob/main/part18-1~2/150~154.md)
 
 [PART19 메모리 관리](https://github.com/Seo-garden/Allen-swift/blob/main/part19/155~162.md)
+
+[PART20 에러 처리](https://github.com/Seo-garden/Allen-swift/blob/main/part20/163~166.md)
+
+[PART20-1 네트워킹](https://github.com/Seo-garden/Allen-swift/blob/main/part20-1/167~172.md)
