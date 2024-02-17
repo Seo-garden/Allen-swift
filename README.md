@@ -33,3 +33,5 @@
 [PART20 에러 처리](https://github.com/Seo-garden/Allen-swift/blob/main/part20/163~166.md)
 
 [PART20-1 네트워킹](https://github.com/Seo-garden/Allen-swift/blob/main/part20-1/167~172.md)
+
+[PART20-2 비동기프로그래밍](https://github.com/Seo-garden/Allen-swift/blob/main/part20-2/173~182.md)
