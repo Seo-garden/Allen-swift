@@ -163,7 +163,7 @@ dodoFunc(20)        //1800
 //MARK: - 149강
 var aSavedFunction: () -> () = {print("출력")}
 
-func performEscaping2(closure: @escaping () -> ()){
+func performEscaping2(closure: @escaping () -> Void){
     aSavedFunction = closure                //클로저를 실행하는 것이 아닌 aSaveFunction 변수에 저장
 }
 
