@@ -39,9 +39,9 @@ struct Member {
 }
 struct MemberGeneric<T> {       //클래스와 구조체 동일하게 선언이 가능하다
     var members : [T] = []
-//    func doSomething(a: T) -> T {       //이런식으로 리턴형을 타입 파라미터로 대체 가능하다
-//        return a
-//    }
+    func doSomething(a: T) -> T {       //이런식으로 리턴형을 타입 파라미터로 대체 가능하다
+        return a
+    }
     
 }
 //아래와 같이 여러가지 타입을 담을 수 있다.
@@ -67,7 +67,7 @@ extension Coordinates {     // 확장에선 <T> 타입파라미터를 쓸 경우
     }
 }
 let place = Coordinates(x: 5, y: 5)
-print(place.getPlace())
+print(place.getPlace())     //5,5
 //where 절을 추가할 수 있는데, 아래 확장의 경우 타입이 정수형일때만, 실행이 된다.
 extension Coordinates where T == Int {
     func getIntArray() -> [T]{
