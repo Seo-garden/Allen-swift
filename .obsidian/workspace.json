@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part22-1/188~191.md",
+                "file": "part24/195~206.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part22-1/188~191.md",
+                "file": "part24/195~206.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part22-1/188~191.md",
+                "file": "part24/195~206.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part22-1/188~191.md"
+                "file": "part24/195~206.md"
               }
             }
           },
@@ -167,42 +166,44 @@
   },
   "active": "18847d08224317bd",
   "lastOpenFiles": [
+    "part23/MyPlayground1.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part23/MyPlayground1.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
+    "part23/MyPlayground1.playground/playground.xcworkspace/xcuserdata",
+    "part23/MyPlayground1.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "part23/MyPlayground1.playground/playground.xcworkspace",
+    "part23/MyPlayground1.playground/timeline.xctimeline",
+    "part23/MyPlayground1.playground/contents.xcplayground",
+    "part23/MyPlayground1.playground/Contents.swift",
+    "part23/MyPlayground1.playground",
+    "사진/Pasted image 20240227163503.png",
+    "사진/Pasted image 20240227161318.png",
+    "사진/Pasted image 20240227151128.png",
+    "사진/Pasted image 20240227151122.png",
+    "part24/File~.swift",
+    "part24/File.swift",
+    "part23/192~194.md",
+    "part24/195~206.md",
+    "README.md",
+    "Pasted image 20240227163503.png",
+    "Pasted image 20240227161318.png",
+    "Pasted image 20240227151128.png",
+    "Pasted image 20240227151122.png",
+    "part20-2/173~182.md",
+    "part21~22/183~187.md",
+    "part20-1/167~172.md",
+    "part22-1/188~191.md",
+    "part15/125~135.md",
+    "part14/119~124.md",
     "사진/Pasted image 20240223172234.png",
     "사진/Pasted image 20240223172216.png",
-    "사진/Pasted image 20240223141900.png",
-    "Pasted image 20240223172234.png",
-    "Pasted image 20240223172216.png",
-    "Pasted image 20240223141900.png",
-    "part22-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
-    "part22-1/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part22-1/MyPlayground.playground/playground.xcworkspace/xcuserdata",
-    "part22-1/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "part22-1/MyPlayground.playground/playground.xcworkspace",
-    "part22-1/MyPlayground.playground/timeline.xctimeline",
-    "part22-1/MyPlayground.playground/contents.xcplayground",
-    "part22-1/MyPlayground.playground/Contents.swift",
-    "part22-1/MyPlayground.playground",
-    "README.md",
-    "part22-1/188~191.md",
-    "사진/Pasted image 20240221194703.png",
-    "사진/Pasted image 20240221194543.png",
-    "part22-1",
-    "part21~22/183~187.md",
-    "Pasted image 20240221194703.png",
-    "Pasted image 20240221194543.png",
-    "사진/Pasted image 20240220202457.png",
     "part18-1~2/150~154.md",
     "part18/142~149-1.md",
-    "part15/125~135.md",
     "part13/115~118.md",
-    "part20-2/173~182.md",
     "part20/163~166.md",
-    "part20-1/167~172.md",
     "part19/155~162.md",
     "part11/85~89.md",
     "part11-1/90~103.md",
     "part19/.md",
-    "part14/119~124.md",
     "part12/104~114.md",
     "복습내용/Part11. 속성까지의 복습.md",
     "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
@@ -211,8 +212,6 @@
     "part18/README.md",
     "part10/53~59.md",
     "part7/35~42-1.md",
-    "part7/28~34.md",
-    "README~.md",
     "무제 파일.canvas"
   ]
 }
