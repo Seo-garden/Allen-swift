@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part24/195~206.md",
+                "file": "part24_문자열과 문자/195~206.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part24/195~206.md",
+                "file": "part24_문자열과 문자/195~206.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part24/195~206.md",
+                "file": "part24_문자열과 문자/195~206.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part24/195~206.md"
+                "file": "part24_문자열과 문자/195~206.md"
               }
             }
           },
@@ -166,52 +166,52 @@
   },
   "active": "18847d08224317bd",
   "lastOpenFiles": [
-    "part23/MyPlayground1.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
-    "part23/MyPlayground1.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "part23/MyPlayground1.playground/playground.xcworkspace/xcuserdata",
-    "part23/MyPlayground1.playground/playground.xcworkspace/contents.xcworkspacedata",
-    "part23/MyPlayground1.playground/playground.xcworkspace",
-    "part23/MyPlayground1.playground/timeline.xctimeline",
-    "part23/MyPlayground1.playground/contents.xcplayground",
-    "part23/MyPlayground1.playground/Contents.swift",
-    "part23/MyPlayground1.playground",
+    "Pasted image 20240227215333.png",
+    "part24/195~206.md",
+    "README~.md",
+    "사진/Pasted image 20240227204617.png",
+    "사진/Pasted image 20240227203055.png",
+    "README.md",
+    "Pasted image 20240227204617.png",
+    "Pasted image 20240227203055.png",
+    "사진/README.md",
+    "part24_문자열과 문자/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part24_문자열과 문자/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
+    "part24_문자열과 문자/MyPlayground.playground/playground.xcworkspace/xcuserdata",
+    "part24_문자열과 문자/MyPlayground.playground/playground.xcworkspace/contents.xcworkspacedata",
+    "part24_문자열과 문자/MyPlayground.playground/playground.xcworkspace",
+    "part24_문자열과 문자/MyPlayground.playground/contents.xcplayground",
+    "part24_문자열과 문자/MyPlayground.playground/Contents.swift",
+    "part24_문자열과 문자/MyPlayground.playground",
+    "part24_문자열과 문자/195~206.md",
+    "part24_문자열과 문자",
+    "part23_접근제어/MyPlayground.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
+    "part23_접근제어/192~194.md",
+    "part22-1_스위프트에서의/188~191.md",
+    "part23/192~194.md",
+    "part24_문자열과 /195~206.md",
+    "part22-1_스위프트에서 날짜와 시간 다루기/188~191.md",
+    "part21_제네릭~22_ResultType/183~187.md",
+    "part20-2_비동기프로그래밍/173~182.md",
+    "part20-1_네트워킹/167~172.md",
+    "part20_에러처리/163~166.md",
+    "part19_메모리관리/155~162.md",
+    "part18-1_고차함수~2_함수형프로그래밍/150~154.md",
+    "part18_클로저/142~149-1.md",
+    "part16_메서드디스패치~17-1_Self키워드/136~141.md",
+    "part15_프로토콜/125~135.md",
+    "part14_확장/119~124.md",
+    "part13_타입캐스팅/115~118.md",
+    "part12_클래스의 상속/104~114.md",
+    "part11-1_속성/90~103.md",
+    "part11_클래스/85~89.md",
+    "part10_열거형/53~59.md",
     "사진/Pasted image 20240227163503.png",
     "사진/Pasted image 20240227161318.png",
     "사진/Pasted image 20240227151128.png",
     "사진/Pasted image 20240227151122.png",
-    "part24/File~.swift",
-    "part24/File.swift",
-    "part23/192~194.md",
-    "part24/195~206.md",
-    "README.md",
     "Pasted image 20240227163503.png",
     "Pasted image 20240227161318.png",
-    "Pasted image 20240227151128.png",
-    "Pasted image 20240227151122.png",
-    "part20-2/173~182.md",
-    "part21~22/183~187.md",
-    "part20-1/167~172.md",
-    "part22-1/188~191.md",
-    "part15/125~135.md",
-    "part14/119~124.md",
-    "사진/Pasted image 20240223172234.png",
-    "사진/Pasted image 20240223172216.png",
-    "part18-1~2/150~154.md",
-    "part18/142~149-1.md",
-    "part13/115~118.md",
-    "part20/163~166.md",
-    "part19/155~162.md",
-    "part11/85~89.md",
-    "part11-1/90~103.md",
-    "part19/.md",
-    "part12/104~114.md",
-    "복습내용/Part11. 속성까지의 복습.md",
-    "Users/seojeong-won/Desktop/Study/iOS/Swift.md",
-    "part16~17-1/136~141.md",
-    "part18/142~149-1~.md",
-    "part18/README.md",
-    "part10/53~59.md",
-    "part7/35~42-1.md",
     "무제 파일.canvas"
   ]
 }
