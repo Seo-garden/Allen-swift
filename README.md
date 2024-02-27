@@ -14,7 +14,7 @@
 
 [PART11-1 속성(Property)](https://github.com/Seo-garden/Allen-swift/blob/main/part11-1_속성/90~103.md)
 
-[PART12 클래스의 상속과 초기화](https://github.com/Seo-garden/Allen-swift/blob/main/part12_클래스의 상속/104~114.md)
+[PART12 클래스의 상속과 초기화](https://github.com/Seo-garden/Allen-swift/blob/main/part12_클래스의상속/104~114.md)
 
 [PART13 타입캐스팅](https://github.com/Seo-garden/Allen-swift/blob/main/part13_타입캐스팅/115~118.md)
 
@@ -42,7 +42,7 @@
 
 [PART23 접근 제어](https://github.com/Seo-garden/Allen-swift/blob/main/part23_접근제어/192~194.md)
 
-[PART24 문자열과 문자](https://github.com/Seo-garden/Allen-swift/blob/main/part24_문자열과 문자/195~206.md)
+[PART24 문자열과 문자](https://github.com/Seo-garden/Allen-swift/blob/main/part24_문자열과문자/195~206.md)
 
 [PART25 고급 연산자](https://github.com/Seo-garden/Allen-swift/blob/main/part25_고급연산자/207~212.md)
 
