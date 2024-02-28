@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part24_문자열과 문자/195~206.md",
+                "file": "part24_문자열과문자/195~206.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part24_문자열과 문자/195~206.md",
+                "file": "part24_문자열과문자/195~206.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part24_문자열과 문자/195~206.md",
+                "file": "part24_문자열과문자/195~206.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part24_문자열과 문자/195~206.md"
+                "file": "part24_문자열과문자/195~206.md"
               }
             }
           },
@@ -166,6 +166,11 @@
   },
   "active": "18847d08224317bd",
   "lastOpenFiles": [
+    "Pasted image 20240228205537.png",
+    "Pasted image 20240228205524.png",
+    "Pasted image 20240228193341.png",
+    "Pasted image 20240228191430.png",
+    "Pasted image 20240228153126.png",
     "Pasted image 20240227215333.png",
     "part24/195~206.md",
     "README~.md",
@@ -207,11 +212,6 @@
     "part11_클래스/85~89.md",
     "part10_열거형/53~59.md",
     "사진/Pasted image 20240227163503.png",
-    "사진/Pasted image 20240227161318.png",
-    "사진/Pasted image 20240227151128.png",
-    "사진/Pasted image 20240227151122.png",
-    "Pasted image 20240227163503.png",
-    "Pasted image 20240227161318.png",
     "무제 파일.canvas"
   ]
 }
