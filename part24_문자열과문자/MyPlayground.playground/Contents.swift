@@ -178,5 +178,43 @@ for i in greeting2.indices {
 
 
 //MARK: - 202강
+var welcome = "Hello"
+welcome.insert("!", at: welcome.endIndex)       //이런 경우에 character 하나만 넣을 수 있는데
+welcome.insert(contentsOf: "asdasd", at: welcome.startIndex)        //이렇게 구성하면 여러문자를 넣을 수 있다.
+
+if let range = welcome.range(of: "!") {
+    welcome.replaceSubrange(range, with: "Swift")
+}
+
+var newWelcome = welcome.replacingOccurrences(of: "Swift", with: "New world")       //"Swift" 라는 문자열이 존재하면 "World" 로 교체
+//인덱스 범위 파악
+//var range = welcome.index(welcome.endIndex, offsetBy: 6)..<welcome.endIndex
+
+var string3 = "Hello World"
+
+if let someIndex = string3.firstIndex(of: " ") {
+    string3.insert(contentsOf: " super", at: someIndex)
+}
+//MARK: - 202강
+var a = "Swift"
+var b = "swift"
+
+a.caseInsensitiveCompare(b)     //대소문자를 무시하고 비교하는 메서드가 존재한다.
+//ComparisonResult 열거형 타입으로 정의
+//.orderSame    순서가 동일
+//.orderAscending       오름차순
+//.orderAsDecending     내림차순
+//단순히 같은지 다른지를 비교하는 것이 아닌 결과가 오름차순/내림차순인지 알 수 있어서 결괏값이 활용성이 높고 보다 구체적인 정보 제공 가능
+var result1 = a.caseInsensitiveCompare(b)
+
+switch result1 {
+case .orderedAscending:
+    print("오름차순")
+case .orderedDescending:
+    print("내림차순")
+default:
+    print("동일한 차순으로 나옴")
+}
 
 
+//문자열.compare
