@@ -195,7 +195,7 @@ var string3 = "Hello World"
 if let someIndex = string3.firstIndex(of: " ") {
     string3.insert(contentsOf: " super", at: someIndex)
 }
-//MARK: - 202강
+//MARK: - 203강
 var a = "Swift"
 var b = "swift"
 
@@ -216,5 +216,37 @@ default:
     print("동일한 차순으로 나옴")
 }
 
-
 //문자열.compare
+name.compare("hello", options: .caseInsensitive)
+
+// String.CompareOptions (비교 옵션)
+//외우지 말고, 필요할 때 찾아서 쓰면 된다.
+/**==========================================
+ [String.CompareOptions 구조체]와 내부의 타입 속성들
+ - .caseInsensitive       // 대소문자 무시하고 ⭐️
+ 
+ - .diacriticInsensitive  // 발음구별기호 무시하고
+ - .widthInsensitive      // 글자 넓이 무시하고
+ 
+ - .forcedOrdering        // 강제적 오름차순/내림차순 정렬순 (대소문자 무조건 구별 의미)
+ - .literal               // (유니코드 자체로) 글자그대로
+ - .numeric               // 숫자 전체를 인식해서 비교
+ 
+ - .anchored              // (앞부분부터) 고정시키고 (접두어)
+ - .backwards             // 문자 뒷자리부터
+
+ - .regularExpression     // 정규식 검증 ⭐️
+=============================================**/
+//MARK: - 204강
+let string5 = "Hello World"
+
+string5.contains("Hello")//괄호 안에 있는 문자열을 포함하니?
+string5.lowercased().contains("Hello")//소문자로 변환하고 괄호 안에 있는 문자열을 포함하니?
+//MARK: - 205강
+let number = "010-1234-1234"
+
+var telNum = #"[0-9]{3}\-[0-9]{4}\-[0-9]{4}"#     //0부터 9까지 3자리 사용할 수 있다.
+
+if let _ = number.range(of: telNum, options: .regularExpression ){      //.regularExpression 이라고 정규식인지를 넣어줘야 한다.
+    print("유효한 전화번호")
+}
