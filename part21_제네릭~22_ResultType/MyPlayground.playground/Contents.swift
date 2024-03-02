@@ -42,7 +42,6 @@ struct MemberGeneric<T> {       //클래스와 구조체 동일하게 선언이 
     func doSomething(a: T) -> T {       //이런식으로 리턴형을 타입 파라미터로 대체 가능하다
         return a
     }
-    
 }
 //아래와 같이 여러가지 타입을 담을 수 있다.
 let genenricInt = MemberGeneric(members: [1,2,3,4,5])
