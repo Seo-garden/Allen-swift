@@ -44,5 +44,4 @@
 
 [PART24 문자열과 문자](https://github.com/Seo-garden/Allen-swift/blob/main/part24_문자열과문자/195~206.md)
 
-[PART25 고급 연산자](https://github.com/Seo-garden/Allen-swift/blob/main/part25_고급연산자/207~212.md)
-
+[PART25 고급 연산자, PART 26 메모리 안전](https://github.com/Seo-garden/Allen-swift/blob/main/part25_고급연산자~26_메모리안전/207~213.md)
