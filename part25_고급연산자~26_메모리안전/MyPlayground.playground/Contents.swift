@@ -37,3 +37,11 @@ if checking() || checking() {
     
 }
 num
+//MARK: - 210
+let a1 : UInt8  = 0b1111_1100
+let a2 : UInt8  = 0b0011_1111
+let c2 = a1 & a2
+//a4 ^ b4 --> 서로 같으면 0, 서로 다르면 1 배타적
+let a4 : UInt8 = 0b0001_0100        //20
+let b4 : UInt8 = 0b0000_0101        //5
+let c4 = a4 ^ b4
