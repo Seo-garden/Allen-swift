@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "471e1aac31ff82b5",
+        "id": "32a18599a24513dd",
         "type": "tabs",
         "children": [
           {
-            "id": "18847d08224317bd",
+            "id": "b78f1e1470b81f8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part25_고급연산자~26_메모리안전/207~213.md",
+                "file": "part20-2_비동기프로그래밍/173~182.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99df309c614f4ab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "part7_함수/35~42-1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,27 +71,27 @@
             }
           },
           {
-            "id": "d66621122a5c063e",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "5f1d96b66eb20837",
+            "id": "87e1f5d941d88120",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
               "state": {}
             }
+          },
+          {
+            "id": "1fc018db5f29ff71",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "c77534a7c2ee9e8c",
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part25_고급연산자~26_메모리안전/207~213.md",
+                "file": "part7_함수/35~42-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part25_고급연산자~26_메모리안전/207~213.md",
+                "file": "part7_함수/35~42-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part25_고급연산자~26_메모리안전/207~213.md"
+                "file": "part7_함수/35~42-1.md"
               }
             }
           },
@@ -164,8 +177,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18847d08224317bd",
+  "active": "99df309c614f4ab7",
   "lastOpenFiles": [
+    "part7_함수/28~34.md",
+    "part16_메서드디스패치~17-1_Self키워드/136~141.md",
+    "part24_문자열과문자/195~206.md",
+    "[1주차]누적 합.md",
+    "part19_메모리관리/155~162.md",
+    "part18_클로저/142~149-1.md",
+    "part11-1_속성/90~103.md",
+    "part9_컬렉션/46~52.md",
+    "part7_함수/35~42-1.md",
+    "part18-1_고차함수~2_함수형프로그래밍/150~154.md",
+    "part22-1_스위프트에서의/188~191.md",
+    "part25_고급연산자~26_메모리안전/207~213.md",
     "Pasted image 20240304161623.png",
     "Pasted image 20240303193755.png",
     "Pasted image 20240303165213.png",
@@ -180,16 +205,13 @@
     "part25_고급연산자~26_메모리안전/MyPlayground.playground/contents.xcplayground",
     "part25_고급연산자~26_메모리안전/MyPlayground.playground/Contents.swift",
     "part25_고급연산자~26_메모리안전/MyPlayground.playground",
-    "part24_문자열과문자/195~206.md",
     "part25_고급연산자~part26_메모리안전/207~213.md",
-    "part25_고급연산자~26_메모리안전/207~213.md",
     "part25_고급연산자~26_메모리안전",
     "사진/Pasted image 20240302215735.png",
     "사진/Pasted image 20240302215721.png",
     "사진/Pasted image 20240302215719.png",
     "Pasted image 20240302215735.png",
     "Pasted image 20240302215721.png",
-    "Pasted image 20240302215719.png",
     "part21_제네릭~22_ResultType/183~187.md",
     "part24/195~206.md",
     "README~.md",
@@ -197,21 +219,12 @@
     "사진/README.md",
     "part24_문자열과 문자/195~206.md",
     "part23_접근제어/192~194.md",
-    "part22-1_스위프트에서의/188~191.md",
     "part23/192~194.md",
     "part24_문자열과 /195~206.md",
     "part22-1_스위프트에서 날짜와 시간 다루기/188~191.md",
     "part20-2_비동기프로그래밍/173~182.md",
     "part20-1_네트워킹/167~172.md",
     "part20_에러처리/163~166.md",
-    "part19_메모리관리/155~162.md",
-    "part18-1_고차함수~2_함수형프로그래밍/150~154.md",
-    "part18_클로저/142~149-1.md",
-    "part16_메서드디스패치~17-1_Self키워드/136~141.md",
-    "part15_프로토콜/125~135.md",
-    "part14_확장/119~124.md",
-    "part13_타입캐스팅/115~118.md",
-    "part12_클래스의 상속/104~114.md",
     "무제 파일.canvas"
   ]
 }

@@ -45,3 +45,4 @@ let c2 = a1 & a2
 let a4 : UInt8 = 0b0001_0100        //20
 let b4 : UInt8 = 0b0000_0101        //5
 let c4 = a4 ^ b4
+

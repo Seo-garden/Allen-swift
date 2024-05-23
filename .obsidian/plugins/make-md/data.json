@@ -45,7 +45,12 @@
     "//part14/part14/MyPlayground.playground",
     "//part14/part14/MyPlayground.playground/part14/MyPlayground.playground/playground.xcworkspace",
     "//part14/part14/MyPlayground.playground",
-    "//part23"
+    "//part23",
+    "//part18_클로저/part18_클로저/MyPlayground.playground",
+    "//part18_클로저/part18_클로저/MyPlayground.playground",
+    "//part24_문자열과문자",
+    "//part20-2_비동기프로그래밍",
+    "//part7_함수"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
