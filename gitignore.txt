@@ -6,9 +6,9 @@
 .obsidian/
 .makemd/
 .trash/
-Spaces/Home/
-photo/
-Vault.md
+.Spaces/Home/
+.photo/
+.Vault.md
 
 ### Swift ###
 # Xcode
