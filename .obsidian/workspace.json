@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db557eb59877aef9",
+        "id": "bb55586e5705496e",
         "type": "tabs",
         "children": [
           {
-            "id": "c4157de7a67fe767",
+            "id": "06989b80893fafed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "part15_프로토콜/125~135.md",
+                "file": "part18_클로저/142~149-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -72,16 +72,9 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "9e38743cc8598a8f",
-            "type": "leaf",
-            "state": {
-              "type": "mk-path-view",
-              "state": {}
-            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -101,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "part15_프로토콜/125~135.md",
+                "file": "part18_클로저/142~149-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "part15_프로토콜/125~135.md",
+                "file": "part18_클로저/142~149-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "part15_프로토콜/125~135.md"
+                "file": "part18_클로저/142~149-1.md"
               }
             }
           },
@@ -171,13 +164,31 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4157de7a67fe767",
+  "active": "06989b80893fafed",
   "lastOpenFiles": [
-    "part12_클래스의상속/104~114.md",
-    "part15_프로토콜/125~135.md",
+    "gitignore.txt",
+    "photo/Pasted image 20240623003245.png",
+    "photo/Pasted image 20240304161623.png",
+    "photo/Pasted image 20240303193755.png",
+    "photo/Pasted image 20240303165213.png",
+    "photo/Pasted image 20240303165203.png",
+    "photo/Pasted image 20240303163758.png",
+    "photo/Pasted image 20240302215735.png",
+    "photo/Pasted image 20240302215721.png",
+    "photo/Pasted image 20240302215719.png",
+    "photo/Pasted image 20240301220001.png",
+    "photo",
+    "gitignore.txt.sb-105354d9-5rn7JL",
+    "Swift.gitignore",
     "part18_클로저/142~149-1.md",
-    "복습내용/Part11. 속성까지의 복습.md",
     "part11_클래스/85~89.md",
+    "Spaces/Home/part3/part3.md",
+    "Spaces/Home/part3",
+    "part15_프로토콜/125~135.md",
+    "part19_메모리관리/155~162.md",
+    "part16_메서드디스패치~17-1_Self키워드/136~141.md",
+    "part12_클래스의상속/104~114.md",
+    "복습내용/Part11. 속성까지의 복습.md",
     "복습내용/0622/0622.md",
     "복습내용/복습내용.md",
     "Vault.md",
@@ -187,22 +198,7 @@
     "복습내용/0622.playground/playground.xcworkspace/xcuserdata",
     "복습내용/0622.playground/playground.xcworkspace/contents.xcworkspacedata",
     "복습내용/0622.playground/playground.xcworkspace",
-    "복습내용/0622.playground",
-    "복습내용/0622/0622.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad/UserInterfaceState.xcuserstate",
-    "복습내용/0622/0622.playground/playground.xcworkspace/xcuserdata/seojeong-won.xcuserdatad",
-    "복습내용/0622/0622.playground/playground.xcworkspace/xcuserdata",
-    "복습내용/0622/0622.playground/playground.xcworkspace/contents.xcworkspacedata",
     "part25_고급연산자~26_메모리안전/207~213.md",
-    "사진/Pasted image 20240229201415.png",
-    "사진/Pasted image 20240227163503.png",
-    "사진/Pasted image 20240304161623.png",
-    "사진/Pasted image 20240303193755.png",
-    "사진/Pasted image 20240303165213.png",
-    "사진/Pasted image 20240303165203.png",
-    "사진/Pasted image 20240303163758.png",
-    "사진/Pasted image 20240302215735.png",
-    "사진/Pasted image 20240302215721.png",
-    "사진/Pasted image 20240302215719.png",
     "README.md",
     "part4_튜플/19~20.md",
     "part20-2_비동기프로그래밍/173~182.md",
@@ -210,15 +206,11 @@
     "part24_문자열과문자/part24_문자열과문자.md",
     "part4_튜플/.md",
     "part18-1_고차함수~2_함수형프로그래밍/150~154.md",
-    "part16_메서드디스패치~17-1_Self키워드/136~141.md",
     "part7_함수/35~42-1.md",
     "part7_함수/28~34.md",
     "part24_문자열과문자/195~206.md",
     "[1주차]누적 합.md",
-    "part19_메모리관리/155~162.md",
     "part11-1_속성/90~103.md",
-    "part9_컬렉션/46~52.md",
-    "part22-1_스위프트에서의/188~191.md",
     "무제 파일.canvas"
   ]
 }

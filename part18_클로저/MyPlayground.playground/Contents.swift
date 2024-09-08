@@ -78,6 +78,8 @@ closureParamFunction2(){
 closureParamFunction2{
     //괄호를 생략하면 후행클로저의 모습이 된다.
 }
+
+
 //2. 파라미터 및 생략 등의 간소화
 func performClosure(param : (String) -> Int) {
     param("Swift")
@@ -134,12 +136,13 @@ multipleClosure2 {
 }
 //MARK: - 148강
 var stored = 0
+//클로저 외부에 존재하는 stored 변수를 계속 사용해야 하기 때문에 캡처현상이 발생한다.
 let closure = { (number: Int) -> Int in
     stored += number
     return stored
 }
-closure(3)
-closure(5)
+closure(3)      //3
+closure(5)      //8
 // 아래의 경우 중첩 함수로 되어있고
 // 내부 함수 외부에 계속 사용해야 하는 값이 있기 때문에 캡처 현상이 발생
 // 함수, 클로저를 변수에 저장하는 시점을 캡처 --> 클래스도 레퍼런스 타입
@@ -161,6 +164,12 @@ squareFunc(30)      //1400
 var dodoFunc = calculateFunc()
 dodoFunc(20)        //1800
 //MARK: - 149강
+//escaping 키워드가 필요한 경우
+//원칙적으로 함수의 실행이 종료되면 파라미터로 쓰이는 클로저도 제거된다
+//@escaping 키워드는 클로저를 제거하지 않고 함수에서 탈출시킴(함수가 종료되어도 클로저가 존재하도록 한다) --> 클로저가 함수의 실행흐름(스택프레임)을 벗어날 수 있도록 함
+//@escaping 사용의 대표적인 경우
+//1. 어떤 함수의 내부에 존재하는 클로저를 외부 변수에 저장
+//2. GCD (비동기 코드의 사용)
 var aSavedFunction: () -> () = {print("출력")}
 
 func performEscaping2(closure: @escaping () -> Void){

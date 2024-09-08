@@ -18,7 +18,7 @@
   "saveAllContextToFrontmatter": true,
   "editorFlowStyle": "seamless",
   "autoOpenFileContext": false,
-  "activeView": "/",
+  "activeView": "Spaces/Home",
   "hideFrontmatter": true,
   "activeSpace": "",
   "defaultDateFormat": "MMM dd yyyy",
@@ -77,7 +77,11 @@
     "//복습내용/복습내용/0622",
     "//복습내용/복습내용/0622/복습내용/0622/0622.playground",
     "//복습내용/복습내용/0622",
-    "//part12_클래스의상속"
+    "//part12_클래스의상속",
+    "//part18_클로저",
+    "//part19_메모리관리",
+    "Spaces/Home/Spaces/Home/part3",
+    "Spaces/Home/Spaces/Home/part3"
   ],
   "expandFolderOnClick": true,
   "menuTriggerChar": "/",
