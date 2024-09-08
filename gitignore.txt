@@ -89,6 +89,7 @@ fastlane/test_output
 
 iOSInjectionProject/
 
+photo/*.png/
+
 # End of https://www.toptal.com/developers/gitignore/api/swift,obsidian
 
-photo/*.png
