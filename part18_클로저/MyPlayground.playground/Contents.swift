@@ -190,7 +190,7 @@ performEscaping1 { str in
     print("이름 출력하기 \(str)")
 }
 //클로저 앞에 @autoclosure 키워드 사용(파라미터가 없는 클로저만 가능)
-func someFunction(closure: @autoclosure @escaping () -> Bool) {       //input 이 없을 때만
+func someFunction(closure: @autoclosure () -> Bool) {       //input 이 없을 때만
     if closure(){
         print("참입니다.")
     } else {

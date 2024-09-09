@@ -43,8 +43,12 @@ print(bbb)
 
 var c1 = [2,4,6,8].filter { num in //아래에 정의된 evenNumbersArray 와 동일하다
     return num < 5
-}
+ }
 evenNumbersArray = array.filter{$0 % 2 == 0}.filter{ $0 < 5}
+
+//기존 배열 등의 각 아이템을 클로저가 제공하는 방식으로 결합해서
+//마지막 결과값을 리턴
+//(각 아이템을 결합해서 단 하나의 값으로 리턴)
 
 var numbersArray = [1,2,3,4,5,6,7,8,9,10]
 
@@ -53,7 +57,7 @@ var resultSum = numbersArray.reduce(0) { a, b in     //초기값이 필요하다
 }
 print(resultSum)
 var a1 = numbersArray.reduce("0") { result, item in     //초기값을 0으로 주고 배열의 0번째를 문자열로 변환
-    return result + String(item)
+    return result + String(item)        //"012345678910" -> "0" + "1" -> "01"
 }
 print(a1)
 
@@ -124,4 +128,13 @@ bori?.sit()     //앞 타입이 옵셔널이라고 해서 메서드가 실행이
 bori?.layDown()
 bori = nil      //bori 가 nil 로 될 경우 결과 값이 nil 로 된다.
 
+
+
+
+let numberArray = [1,2,3,4,5,6,7,8,9,10]
+
+var a = numberArray
+    .filter { $0 % 2 == 0 }
+    .map { $0 * $0 }
+    .reduce(0) { return $0 + $1 }
 
