@@ -77,13 +77,14 @@ let immutableArray = [1,2,3,4,5]
 immutableArray.forEach { num in     //map 과 다르게 배열로 반환하지 않는다.
     print(num)
 }
+
 let stringArray: [String?] = ["A", nil, "C", "B", nil]
 
-var newString = stringArray.compactMap {$0}     //nil 을 제외하고 가지고 있는 배열을 그대로 반환
+var newString = stringArray.compactMap {$0}     // 옵셔널 타입 + map
 print(newString)
 
 var nestedArray = [[1,2,3], [4,5,6], [7,8,9]]
-print(nestedArray.flatMap{$0})      //배열들을 하나의 배열로 만들어 준다.
+print(nestedArray.flatMap{$0})      //중첩된 배열들을 하나의 배열로 만들어 준다.
 //MARK: - 153강
 //명령형 프로그래밍
 let number = [1,2,3]
@@ -137,4 +138,3 @@ var a = numberArray
     .filter { $0 % 2 == 0 }
     .map { $0 * $0 }
     .reduce(0) { return $0 + $1 }
-
